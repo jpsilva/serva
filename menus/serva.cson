@@ -1,0 +1,40 @@
+"context-menu":
+  ".tree-view .directory > .header": [
+    {
+      label: "Serva"
+      submenu: [
+        {
+          label: "Start Server"
+          command: "serva:start-server"
+        }
+        {
+          label: "Start Server and Watch Files"
+          command: "serva:start-watch-server"
+        }
+        {
+          label: "Stop Server"
+          command: "serva:stop-server"
+        }
+      ]
+    }
+  ]
+menu: [
+  {
+    label: "Packages"
+    submenu: [
+      {
+        label: "Serva"
+        submenu: [
+          {
+            label: "Stop All Servers"
+            command: "serva:stop-all-servers"
+          }
+          {
+            label: "Toggle Server List"
+            command: "serva:toggle-server-list"
+          }
+        ]
+      }
+    ]
+  }
+]
