@@ -2,7 +2,7 @@
   "name": "Serva",
   "main": "./lib/serva",
   "version": "0.1.0",
-  "description": "A short description of your package",
+  "description": "Run a static web server from any directory in your project.",
   "keywords": [],
   "activationCommands": {
     "atom-workspace": [
