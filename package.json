@@ -1,7 +1,7 @@
 {
   "name": "Serva",
   "main": "./lib/serva",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Run a static web server from any directory in your project.",
   "keywords": [],
   "activationCommands": {
